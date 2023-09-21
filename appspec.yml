@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - /src
+  destination: /var/www/html/
+hooks:
+  BeforeInstall:
+    - location: scripts/stop_app
+    timeout: 30
+    runas: root

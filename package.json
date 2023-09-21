@@ -1,0 +1,13 @@
+{
+  "name": "lyn_bot",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/app.js"
+  },
+  "dependencies": {
+    "venom-bot": "^5.0.21"
+  }
+}

@@ -1,0 +1,1 @@
+export const bdTemp = Object.create({});
