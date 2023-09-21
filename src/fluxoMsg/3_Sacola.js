@@ -8,10 +8,9 @@ export const Sacola = {
       return 'Pedido cancelado!'
     } else if (message === '#') {
       return 'Deseja finalizar pedido?'
-    } 
-    // else if (!cardapioLoja[message]) {
-    //   return 'Opção inválida!'
-    // }
+    } else if (!cardapioLoja[message]) {
+      return 'Opção inválida!'
+    }
 
     if (!bdTemp[from].tempItem) {
       bdTemp[from].tempItem = {
